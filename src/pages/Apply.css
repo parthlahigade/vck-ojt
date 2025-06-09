@@ -1,0 +1,85 @@
+.content {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1e3a8a;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #2563eb;
+  margin-top: 2rem;
+}
+
+p {
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.admissions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.admissions-table th,
+.admissions-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.admissions-table th {
+  background-color: #f1f5f9;
+}
+
+ol {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .admissions-table th,
+  .admissions-table td {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}

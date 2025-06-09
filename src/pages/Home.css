@@ -1,0 +1,88 @@
+.body{
+    overflow-y: hidden;
+}
+.content {
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  background-color: #fff;
+  
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: auto;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero-banner-image {
+  width: 100%;
+  height: 280px;
+  filter:brightness(50%);
+  border-radius: 8px;
+  position: relative;
+}
+
+.hero-overlay-text {
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.hero-overlay-text h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-overlay-text .hero-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.call-to-action {
+  margin-top: 2rem;
+  background: #f1f1f1;
+  padding: 1rem;
+  border-left: 5px solid #28a745;
+}
+
+.call-to-action .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
