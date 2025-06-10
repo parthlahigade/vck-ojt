@@ -62,8 +62,8 @@ h1, h2 {
 }
 
 .page-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1rem;
-  background-color: rgb(247, 248, 248);
+  background-color:white;
 }
