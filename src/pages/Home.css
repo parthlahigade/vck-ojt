@@ -1,10 +1,11 @@
 .body{
     overflow-y: hidden;
+    background-color: aquamarine;
 }
 .content {
   font-family: 'Arial', sans-serif;
   padding: 2rem;
-  background-color: #fff;
+  background-color: #54dfe9;
   
 }
 

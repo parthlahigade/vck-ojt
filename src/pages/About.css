@@ -15,7 +15,7 @@ h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  color: #0a0b0c;
+  color: blue;
   animation: fadeInUp 1s ease-in-out;
 }
 

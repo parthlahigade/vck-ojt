@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Apply from './pages/Apply';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import './app.css';
 
 const App = () => {
   return (
