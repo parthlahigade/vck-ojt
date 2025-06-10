@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Courses.css';
 
 const Courses = () => {
   return (
     <div className="content">
       <div className="page-container">
-        <h1>Our Academic Programs</h1>
+        <u><h1>Our Academic Programs</h1></u>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
           designed to equip students with the knowledge and skills demanded by today's dynamic global
@@ -107,10 +108,10 @@ const Courses = () => {
         </p>
 
         <div className="call-to-action">
-          <p>Have questions about a specific course?</p>
-          <a className="btn" href="/contact">
+          <p>Have questions about a specific course????????????</p>
+          <Link className="btn" to="/contact">
             Inquire About Courses
-          </a>
+          </Link>
         </div>
       </div>
     </div>
