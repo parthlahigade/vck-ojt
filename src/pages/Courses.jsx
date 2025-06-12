@@ -6,7 +6,7 @@ const Courses = () => {
   return (
     <div className="content">
       <div className="page-container">
-        <u><h1>Our Academic Programs</h1></u>
+        <h1>Our Academic Programs</h1>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
           designed to equip students with the knowledge and skills demanded by today's dynamic global
@@ -108,7 +108,7 @@ const Courses = () => {
         </p>
 
         <div className="call-to-action">
-          <p>Have questions about a specific course????????????</p>
+          <p>Have questions about a specific course?</p>
           <Link className="btn" to="/contact">
             Inquire About Courses
           </Link>

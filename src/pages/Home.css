@@ -42,6 +42,9 @@
   font-size: 2.5rem;
   color: #fff;
 }
+.hero-overlay-text p{
+  text-align: center;
+}
 
 .hero-overlay-text .hero-btn {
   background-color: #28a745;
